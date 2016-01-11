@@ -1,85 +1,154 @@
-[13:14:58] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0-RC1
-[13:14:58] [CanaryMod] [INFO]: Canary Path: /home/ubuntu/mcserver/CanaryMod-1.8.0-1.2.0-RC1.jar & Working From: /home/ubuntu/mcserver
-[13:14:59] [CanaryMod] [INFO]: Registered xml Database
-[13:14:59] [CanaryMod] [INFO]: Found 0 plugins; total: 0
-[13:15:01] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
-[13:15:01] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
-[13:15:01] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
-[13:15:03] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
-[13:15:03] [CanaryMod] [INFO]: Enabling early Plugins...
-[13:15:04] [CanaryMod] [INFO]: Enabling late Plugins...
-[13:15:04] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
-[13:15:05] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 39%
-[13:15:06] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (2.966s)! For help, type "help" or "?"
-[13:15:15] [net.minecraft.server.network.NetHandlerLoginServer] [INFO]: UUID of player stemail23 is 167195ad-df79-4dad-84ae-a1275758a99c
-[13:15:15] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: stemail23[/14.200.155.129:54296] logged in with entity id 332 at (-247.5, 70.0, 58.5)
-[13:15:15] [net.minecraft.server.MinecraftServer] [INFO]: stemail23 joined the game
-[13:15:25] [CanaryMod] [INFO]: Command used by stemail23: /op stemail23
-[13:15:38] [net.minecraft.server.MinecraftServer] [INFO]: Unknown command. Try /help for a list of commands
-[13:15:46] [CanaryMod] [INFO]: §7[SERVER] Opped stemail23
-[13:22:18] [CanaryMod] [WARN]: Failed to translate Username into a UUID
-[13:22:18] [CanaryMod] [INFO] [NOTICE]: bluebell7 does not exist
-[13:22:43] [CanaryMod] [WARN]: Failed to translate Username into a UUID
-[13:22:43] [CanaryMod] [ERROR]: Could not execute command...
-java.lang.NullPointerException
-	at java.util.regex.Matcher.getTextLength(Matcher.java:1234) ~[?:1.7.0_91]
-	at java.util.regex.Matcher.reset(Matcher.java:308) ~[?:1.7.0_91]
-	at java.util.regex.Matcher.<init>(Matcher.java:228) ~[?:1.7.0_91]
-	at java.util.regex.Pattern.matcher(Pattern.java:1088) ~[?:1.7.0_91]
-	at net.canarymod.ToolBox.isUUID(ToolBox.java:462) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.user.OperatorsProvider.isOpped(OperatorsProvider.java:86) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.commandsys.commands.system.Op.execute(Op.java:33) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.commandsys.CommandList.op(CommandList.java:1142) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_91]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_91]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_91]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_91]
-	at net.canarymod.commandsys.CommandManager$1.execute(CommandManager.java:322) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.commandsys.CanaryCommand.parseCommand(CanaryCommand.java:103) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.commandsys.CommandManager.parseCommand(CommandManager.java:189) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.api.CanaryServer.consoleCommand(CanaryServer.java:170) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:139) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-[13:23:27] [CanaryMod] [WARN]: Failed to translate Username into a UUID
-[13:23:27] [CanaryMod] [ERROR]: Could not execute command...
-java.lang.NullPointerException
-	at java.util.regex.Matcher.getTextLength(Matcher.java:1234) ~[?:1.7.0_91]
-	at java.util.regex.Matcher.reset(Matcher.java:308) ~[?:1.7.0_91]
-	at java.util.regex.Matcher.<init>(Matcher.java:228) ~[?:1.7.0_91]
-	at java.util.regex.Pattern.matcher(Pattern.java:1088) ~[?:1.7.0_91]
-	at net.canarymod.ToolBox.isUUID(ToolBox.java:462) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.user.OperatorsProvider.isOpped(OperatorsProvider.java:86) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.commandsys.commands.system.Op.execute(Op.java:33) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.commandsys.CommandList.op(CommandList.java:1142) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_91]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_91]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_91]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_91]
-	at net.canarymod.commandsys.CommandManager$1.execute(CommandManager.java:322) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.commandsys.CanaryCommand.parseCommand(CanaryCommand.java:103) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.commandsys.CommandManager.parseCommand(CommandManager.java:189) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.api.entity.living.humanoid.CanaryPlayer.executeCommand(CanaryPlayer.java:351) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.canarymod.api.entity.living.humanoid.CanaryPlayer.chat(CanaryPlayer.java:165) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.minecraft.network.NetHandlerPlayServer.a(NetHandlerPlayServer.java:833) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.minecraft.network.play.client.C01PacketChatMessage.a(C01PacketChatMessage.java:34) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.minecraft.network.play.client.C01PacketChatMessage.a(C01PacketChatMessage.java:42) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:17) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [?:1.7.0_91]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [?:1.7.0_91]
-	at net.minecraft.server.MinecraftServer.z(MinecraftServer.java:634) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.minecraft.server.dedicated.DedicatedServer.z(DedicatedServer.java:436) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:583) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:488) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
-	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_91]
-[13:23:27] [CanaryMod] [INFO]: Command used by stemail23: /op bluebell7
-[13:23:42] [CanaryMod] [INFO]: Command used by stemail23: /help
-[13:24:36] [net.minecraft.server.MinecraftServer] [INFO]: [stemail23: Set the time to 4000]
-[13:24:36] [CanaryMod] [INFO]: Command used by stemail23: /time set 4000
-[13:24:59] [net.minecraft.server.MinecraftServer] [INFO]: Unknown command. Try /help for a list of commands
-[13:25:28] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown
-[13:25:28] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server
-[13:25:28] [net.minecraft.server.MinecraftServer] [INFO]: Saving players
-[13:25:28] [net.minecraft.network.NetHandlerPlayServer] [INFO]: stemail23 lost connection: Server closed
-[13:25:28] [net.minecraft.server.MinecraftServer] [INFO]: stemail23 left the game
-[13:25:28] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds
-[13:25:28] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld
-[13:25:28] [CanaryMod] [INFO]: Disabling Plugins ...
+[13:28:26] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0-RC1
+[13:28:26] [CanaryMod] [INFO]: Canary Path: /home/ubuntu/mcserver/CanaryMod-1.8.0-1.2.0-RC1.jar & Working From: /home/ubuntu/mcserver
+[13:28:26] [CanaryMod] [INFO]: Registered xml Database
+[13:28:26] [CanaryMod] [INFO]: Found 1 plugins; total: 1
+[13:28:29] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
+[13:28:29] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
+[13:28:29] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
+[13:28:30] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
+[13:28:30] [CanaryMod] [INFO]: Enabling early Plugins...
+[13:28:31] [CanaryMod] [INFO]: Enabling late Plugins...
+[13:28:31] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[13:28:31] [ScriptCraft] [INFO]: Directory /home/ubuntu/mcserver/scriptcraft does not exist.
+[13:28:31] [ScriptCraft] [INFO]: Initializing /home/ubuntu/mcserver/scriptcraft directory with contents from plugin archive.
+[13:28:31] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/command.js (NE)
+[13:28:31] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/console.js (NE)
+[13:28:31] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/events-bukkit.js (NE)
+[13:28:31] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/events-canary.js (NE)
+[13:28:32] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/events-helper-bukkit.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/events-helper-canary.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/events.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/find.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/java-utils.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/js-patch.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/json2.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/legacy-check.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/nashorn-type.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/persistence.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/plugin.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/readme.md (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/require.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/scriptcraft.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/tabcomplete-jsp.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/tabcomplete.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/task-bukkit.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/lib/task-canary.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/readme.md (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/alias/alias.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/arrows.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/at.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/classroom.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/commando/commando-test.js (NE)
+[13:28:33] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/commando/commando.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/castle.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/chessboard.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/cottage.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/dancefloor.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/fort.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/hangtorch.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/lcd-clock.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/logo.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/mazegen.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/rainbow.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/redstonewire.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/spawn.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/spiral_stairs.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/contrib/temple.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/drone/drone.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/entities.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/examples/example-1-hello-module.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/examples/example-2-hello-command.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/examples/example-3-hello-ops-only.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/examples/example-4-hello-parameters.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/examples/example-5-hello-using-module.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/examples/example-6-hello-player.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/examples/example-7-hello-events.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/homes/homes.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/minigames/NumberGuess.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/minigames/cow-clicker.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/signs/examples.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/plugins/spawn.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/at.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/block-colors.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/blockhelper.js (NE)
+[13:28:34] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/blocks.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/bukkit/fireworks.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/bukkit/input.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/bukkit/inventory.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/bukkit/items.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/bukkit/recipes.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/bukkit/sounds.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/canary/fireworks.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/canary/input.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/canary/inventory.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/canary/items.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/canary/recipes.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/canary/sounds.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/classroom/index.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/arc.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/bed.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/blocktype.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/copypaste.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/cylinders.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/doors.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/firework.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/garden.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/index.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/ladder.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/movement.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/prism.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/rand.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/sign.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/sphere.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/stairs.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/test.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/drone/trees.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/entities.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/fireworks.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/http/package.json (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/http/request.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/input.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/inventory/index.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/items.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/lightning.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/minigames/scoreboard.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/recipes.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/sc-mqtt.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/signs/menu.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/signs/package.json (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/signs/signs.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/slash.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/sounds.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/spawn.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/teleport.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/underscore.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/utils/package.json (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/utils/string-exts.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/utils/utils.js (NE)
+[13:28:35] [ScriptCraft] [INFO]: Unzipping /home/ubuntu/mcserver/scriptcraft/modules/watcher.js (NE)
+[13:28:36] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[13:28:37] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[13:28:37] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[13:28:37] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[13:28:39] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
+[13:28:40] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 1%
+[13:28:41] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 82%
+[13:28:41] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (11.685s)! For help, type "help" or "?"
+[13:28:42] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[13:28:49] [CanaryMod] [INFO] [MESSAGE]: 5.0
+[13:28:58] [net.minecraft.server.network.NetHandlerLoginServer] [INFO]: UUID of player stemail23 is 167195ad-df79-4dad-84ae-a1275758a99c
+[13:28:58] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: stemail23[/14.200.155.129:54536] logged in with entity id 339 at (-247.5, 70.0, 58.5)
+[13:28:58] [net.minecraft.server.MinecraftServer] [INFO]: stemail23 joined the game
+[13:29:16] [CanaryMod] [INFO]: Command used by stemail23: /js 4+5
+[13:29:29] [ScriptCraft] [ERROR]: Error while trying to evaluate javascript: fireworks, Error: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.EcmaError: ReferenceError: "fireworks" is not defined. (<Unknown source>#1) in <Unknown source> at line number 1
+[13:29:29] [ScriptCraft] [ERROR]: javax.script.ScriptException: sun.org.mozilla.javascript.JavaScriptException: JavaException: javax.script.ScriptException: sun.org.mozilla.javascript.EcmaError: ReferenceError: "fireworks" is not defined. (<Unknown source>#1) in <Unknown source> at line number 1 (<Unknown source>#630) in <Unknown source> at line number 630
+[13:29:29] [CanaryMod] [INFO]: Command used by stemail23: /js fireworks
+[13:30:01] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown
+[13:30:01] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server
+[13:30:01] [net.minecraft.server.MinecraftServer] [INFO]: Saving players
+[13:30:01] [net.minecraft.network.NetHandlerPlayServer] [INFO]: stemail23 lost connection: Server closed
+[13:30:01] [net.minecraft.server.MinecraftServer] [INFO]: stemail23 left the game
+[13:30:01] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds
+[13:30:01] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld
+[13:30:01] [CanaryMod] [INFO]: Disabling Plugins ...
+[13:30:01] [CanaryMod] [INFO]: Disabling plugin ScriptCraft

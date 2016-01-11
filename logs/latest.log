@@ -1,35 +1,85 @@
-[12:50:14] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0-RC1
-[12:50:14] [CanaryMod] [INFO]: Canary Path: /home/ubuntu/mcserver/CanaryMod-1.8.0-1.2.0-RC1.jar & Working From: /home/ubuntu/mcserver
-[12:50:14] [CanaryMod] [INFO]: Registered xml Database
-[12:50:14] [CanaryMod] [INFO]: Found 0 plugins; total: 0
-[12:50:17] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
-[12:50:17] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
-[12:50:17] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
-[12:50:17] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
-[12:50:17] [CanaryMod] [INFO]: Could not find the world configuration for default_NORMAL at config/worlds/default, creating default.
-[12:50:17] [CanaryMod] [INFO]: Enabling early Plugins...
-[12:50:19] [CanaryMod] [INFO]: Enabling late Plugins...
-[12:50:19] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
-[12:50:20] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 3%
-[12:50:21] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 4%
-[12:50:22] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 5%
-[12:50:23] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 7%
-[12:50:24] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 9%
-[12:50:26] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 12%
-[12:50:27] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 16%
-[12:50:28] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 23%
-[12:50:29] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 33%
-[12:50:30] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 41%
-[12:50:31] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 53%
-[12:50:32] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 61%
-[12:50:33] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 67%
-[12:50:34] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 78%
-[12:50:35] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 86%
-[12:50:36] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 92%
-[12:50:37] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (19.222s)! For help, type "help" or "?"
-[12:53:49] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown
-[12:53:49] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server
-[12:53:49] [net.minecraft.server.MinecraftServer] [INFO]: Saving players
-[12:53:49] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds
-[12:53:49] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld
-[12:53:49] [CanaryMod] [INFO]: Disabling Plugins ...
+[13:14:58] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0-RC1
+[13:14:58] [CanaryMod] [INFO]: Canary Path: /home/ubuntu/mcserver/CanaryMod-1.8.0-1.2.0-RC1.jar & Working From: /home/ubuntu/mcserver
+[13:14:59] [CanaryMod] [INFO]: Registered xml Database
+[13:14:59] [CanaryMod] [INFO]: Found 0 plugins; total: 0
+[13:15:01] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
+[13:15:01] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
+[13:15:01] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
+[13:15:03] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
+[13:15:03] [CanaryMod] [INFO]: Enabling early Plugins...
+[13:15:04] [CanaryMod] [INFO]: Enabling late Plugins...
+[13:15:04] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
+[13:15:05] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 39%
+[13:15:06] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (2.966s)! For help, type "help" or "?"
+[13:15:15] [net.minecraft.server.network.NetHandlerLoginServer] [INFO]: UUID of player stemail23 is 167195ad-df79-4dad-84ae-a1275758a99c
+[13:15:15] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: stemail23[/14.200.155.129:54296] logged in with entity id 332 at (-247.5, 70.0, 58.5)
+[13:15:15] [net.minecraft.server.MinecraftServer] [INFO]: stemail23 joined the game
+[13:15:25] [CanaryMod] [INFO]: Command used by stemail23: /op stemail23
+[13:15:38] [net.minecraft.server.MinecraftServer] [INFO]: Unknown command. Try /help for a list of commands
+[13:15:46] [CanaryMod] [INFO]: §7[SERVER] Opped stemail23
+[13:22:18] [CanaryMod] [WARN]: Failed to translate Username into a UUID
+[13:22:18] [CanaryMod] [INFO] [NOTICE]: bluebell7 does not exist
+[13:22:43] [CanaryMod] [WARN]: Failed to translate Username into a UUID
+[13:22:43] [CanaryMod] [ERROR]: Could not execute command...
+java.lang.NullPointerException
+	at java.util.regex.Matcher.getTextLength(Matcher.java:1234) ~[?:1.7.0_91]
+	at java.util.regex.Matcher.reset(Matcher.java:308) ~[?:1.7.0_91]
+	at java.util.regex.Matcher.<init>(Matcher.java:228) ~[?:1.7.0_91]
+	at java.util.regex.Pattern.matcher(Pattern.java:1088) ~[?:1.7.0_91]
+	at net.canarymod.ToolBox.isUUID(ToolBox.java:462) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.user.OperatorsProvider.isOpped(OperatorsProvider.java:86) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.commandsys.commands.system.Op.execute(Op.java:33) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.commandsys.CommandList.op(CommandList.java:1142) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_91]
+	at net.canarymod.commandsys.CommandManager$1.execute(CommandManager.java:322) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.commandsys.CanaryCommand.parseCommand(CanaryCommand.java:103) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.commandsys.CommandManager.parseCommand(CommandManager.java:189) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.api.CanaryServer.consoleCommand(CanaryServer.java:170) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:139) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+[13:23:27] [CanaryMod] [WARN]: Failed to translate Username into a UUID
+[13:23:27] [CanaryMod] [ERROR]: Could not execute command...
+java.lang.NullPointerException
+	at java.util.regex.Matcher.getTextLength(Matcher.java:1234) ~[?:1.7.0_91]
+	at java.util.regex.Matcher.reset(Matcher.java:308) ~[?:1.7.0_91]
+	at java.util.regex.Matcher.<init>(Matcher.java:228) ~[?:1.7.0_91]
+	at java.util.regex.Pattern.matcher(Pattern.java:1088) ~[?:1.7.0_91]
+	at net.canarymod.ToolBox.isUUID(ToolBox.java:462) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.user.OperatorsProvider.isOpped(OperatorsProvider.java:86) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.commandsys.commands.system.Op.execute(Op.java:33) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.commandsys.CommandList.op(CommandList.java:1142) ~[CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_91]
+	at net.canarymod.commandsys.CommandManager$1.execute(CommandManager.java:322) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.commandsys.CanaryCommand.parseCommand(CanaryCommand.java:103) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.commandsys.CommandManager.parseCommand(CommandManager.java:189) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.api.entity.living.humanoid.CanaryPlayer.executeCommand(CanaryPlayer.java:351) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.canarymod.api.entity.living.humanoid.CanaryPlayer.chat(CanaryPlayer.java:165) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.minecraft.network.NetHandlerPlayServer.a(NetHandlerPlayServer.java:833) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.minecraft.network.play.client.C01PacketChatMessage.a(C01PacketChatMessage.java:34) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.minecraft.network.play.client.C01PacketChatMessage.a(C01PacketChatMessage.java:42) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:17) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [?:1.7.0_91]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [?:1.7.0_91]
+	at net.minecraft.server.MinecraftServer.z(MinecraftServer.java:634) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.minecraft.server.dedicated.DedicatedServer.z(DedicatedServer.java:436) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.minecraft.server.MinecraftServer.y(MinecraftServer.java:583) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:488) [CanaryMod-1.8.0-1.2.0-RC1.jar:1.8.0-1.2.0-RC1]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_91]
+[13:23:27] [CanaryMod] [INFO]: Command used by stemail23: /op bluebell7
+[13:23:42] [CanaryMod] [INFO]: Command used by stemail23: /help
+[13:24:36] [net.minecraft.server.MinecraftServer] [INFO]: [stemail23: Set the time to 4000]
+[13:24:36] [CanaryMod] [INFO]: Command used by stemail23: /time set 4000
+[13:24:59] [net.minecraft.server.MinecraftServer] [INFO]: Unknown command. Try /help for a list of commands
+[13:25:28] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown
+[13:25:28] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server
+[13:25:28] [net.minecraft.server.MinecraftServer] [INFO]: Saving players
+[13:25:28] [net.minecraft.network.NetHandlerPlayServer] [INFO]: stemail23 lost connection: Server closed
+[13:25:28] [net.minecraft.server.MinecraftServer] [INFO]: stemail23 left the game
+[13:25:28] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds
+[13:25:28] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld
+[13:25:28] [CanaryMod] [INFO]: Disabling Plugins ...

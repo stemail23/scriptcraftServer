@@ -1,0 +1,35 @@
+[12:50:14] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0-RC1
+[12:50:14] [CanaryMod] [INFO]: Canary Path: /home/ubuntu/mcserver/CanaryMod-1.8.0-1.2.0-RC1.jar & Working From: /home/ubuntu/mcserver
+[12:50:14] [CanaryMod] [INFO]: Registered xml Database
+[12:50:14] [CanaryMod] [INFO]: Found 0 plugins; total: 0
+[12:50:17] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
+[12:50:17] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
+[12:50:17] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
+[12:50:17] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
+[12:50:17] [CanaryMod] [INFO]: Could not find the world configuration for default_NORMAL at config/worlds/default, creating default.
+[12:50:17] [CanaryMod] [INFO]: Enabling early Plugins...
+[12:50:19] [CanaryMod] [INFO]: Enabling late Plugins...
+[12:50:19] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
+[12:50:20] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 3%
+[12:50:21] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 4%
+[12:50:22] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 5%
+[12:50:23] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 7%
+[12:50:24] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 9%
+[12:50:26] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 12%
+[12:50:27] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 16%
+[12:50:28] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 23%
+[12:50:29] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 33%
+[12:50:30] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 41%
+[12:50:31] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 53%
+[12:50:32] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 61%
+[12:50:33] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 67%
+[12:50:34] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 78%
+[12:50:35] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 86%
+[12:50:36] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 92%
+[12:50:37] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (19.222s)! For help, type "help" or "?"
+[12:53:49] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown
+[12:53:49] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server
+[12:53:49] [net.minecraft.server.MinecraftServer] [INFO]: Saving players
+[12:53:49] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds
+[12:53:49] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld
+[12:53:49] [CanaryMod] [INFO]: Disabling Plugins ...

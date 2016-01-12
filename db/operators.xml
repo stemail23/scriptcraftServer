@@ -7,4 +7,8 @@
     <id auto-increment="true" data-type="INTEGER" column-type="PRIMARY" is-list="false">2</id>
     <player auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="false">167195ad-df79-4dad-84ae-a1275758a99c</player>
   </entry>
+  <entry>
+    <id auto-increment="true" data-type="INTEGER" column-type="PRIMARY" is-list="false">3</id>
+    <player auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="false">8c47edd5-82c9-4d77-9540-7453ec53a9d2</player>
+  </entry>
 </operators>

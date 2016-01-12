@@ -35,4 +35,13 @@
     <subgroups auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="true"></subgroups>
     <uuid auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="false">167195ad-df79-4dad-84ae-a1275758a99c</uuid>
   </entry>
+  <entry>
+    <group auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="false">visitors</group>
+    <id auto-increment="true" data-type="INTEGER" column-type="PRIMARY" is-list="false">5</id>
+    <isMuted auto-increment="false" data-type="BOOLEAN" column-type="NORMAL" is-list="false">false</isMuted>
+    <name auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="false">Bluebell7</name>
+    <prefix auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="false">null</prefix>
+    <subgroups auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="true"></subgroups>
+    <uuid auto-increment="false" data-type="STRING" column-type="NORMAL" is-list="false">8c47edd5-82c9-4d77-9540-7453ec53a9d2</uuid>
+  </entry>
 </player>
